@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "93459633923",
+    "firebase_url": "https://fir-app15-eac6b-default-rtdb.firebaseio.com",
+    "project_id": "fir-app15-eac6b",
+    "storage_bucket": "fir-app15-eac6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93459633923:android:6f55d876470d3b8c70fb36",
+        "android_client_info": {
+          "package_name": "com.example.app15_2023_24"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuTsCsl2xIY2JTTLUPkmMgSTkL42OTEyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
