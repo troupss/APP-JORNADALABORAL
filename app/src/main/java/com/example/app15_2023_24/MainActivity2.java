@@ -5,10 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
 
     public boolean isPlay = true;
+
+    private TextView tv1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +19,10 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         ImageButton imgButton = findViewById(R.id.Btn1);
+
+        tv1 = findViewById(R.id.textFitxar);
+
+        tv1.setText("INICI:");
 
 
 
@@ -27,10 +34,12 @@ public class MainActivity2 extends AppCompatActivity {
                     // Cambiar a la imagen de pausa
                     imgButton.setImageResource(android.R.drawable.ic_media_pause);
                     isPlay = false; // Actualizar el estado a pausa
+                    tv1.setText("FINALITZAR:");
                 } else {
                     // Cambiar a la imagen de reproducción
                     imgButton.setImageResource(android.R.drawable.ic_media_play);
                     isPlay = true; // Actualizar el estado a reproducción
+                    tv1.setText("INICI:");
                 }
             }
         });
