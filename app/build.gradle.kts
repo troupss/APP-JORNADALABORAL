@@ -41,5 +41,5 @@ dependencies {
     // Dependencias de Firebase
     implementation ("com.google.firebase:firebase-analytics:20.0.0")
     implementation ("com.google.firebase:firebase-auth:21.0.0")
-
+    implementation ("com.google.firebase:firebase-database:20.0.0")
 }
