@@ -12,22 +12,31 @@
         android:layout_height="wrap_content"
         android:text="FITXAR JORNADA LABORAL"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="109dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
 
     <TextView
         android:id="@+id/txtFitxar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Inici:"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="256dp" />
+        android:layout_width="91dp"
+        android:layout_height="35dp"
+        android:text="INICI:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
 
     <ImageButton
         android:id="@+id/btn1"
         android:layout_width="128dp"
         android:layout_height="99dp"
-        app:srcCompat="@android:drawable/ic_media_play"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
 </androidx.constraintlayout.widget.ConstraintLayout>
