@@ -18,9 +18,9 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        ImageButton imgButton = findViewById(R.id.Btn1);
+        ImageButton imgButton = findViewById(R.id.btn1);
 
-        tv1 = findViewById(R.id.textFitxar);
+        tv1 = findViewById(R.id.txtFitxar);
 
         tv1.setText("INICI:");
 
