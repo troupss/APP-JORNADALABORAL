@@ -19,15 +19,16 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inici:"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="256dp" />
+        android:text="Fitxar:"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="267dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="128dp"
-        android:layout_height="99dp"
+        android:id="@+id/Btn1"
+        android:layout_width="110dp"
+        android:layout_height="86dp"
         app:srcCompat="@android:drawable/ic_media_play"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="316dp" />
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="335dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
