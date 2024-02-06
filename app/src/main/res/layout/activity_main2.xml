@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:text="FITXAR JORNADA LABORAL"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="77dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="109dp" />
 
     <TextView
