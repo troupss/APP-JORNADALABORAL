@@ -39,7 +39,12 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
     // Dependencias de Firebase
-    implementation ("com.google.firebase:firebase-analytics:20.0.0")
-    implementation ("com.google.firebase:firebase-auth:21.0.0")
-    implementation ("com.google.firebase:firebase-database:20.0.0")
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-database")
+
+    //EXCEL
+    implementation ("net.sourceforge.jexcelapi:jxl:2.6.12")
+    //FIREBASE STORAGE
+    implementation ("com.google.firebase:firebase-storage")
 }
